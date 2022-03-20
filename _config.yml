@@ -1,3 +1,7 @@
+<<<<<<< HEAD
 theme:yoga
+=======
+theme: jekyll-theme-cayman 
+>>>>>>> d13cbc58b74687ef4be900c0bcabcaba80094041
 title: Octocat's homepage
 description: Bookmark this to keep an eye on my project updates!
