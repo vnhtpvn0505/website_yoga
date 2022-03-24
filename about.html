@@ -1,122 +1,106 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Directing Template" />
-    <meta name="keywords" content="Directing, unica, creative, html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Xuân Thiều Yoga</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <!-- Google Font -->
+    <title>Xuân Thiều Yoga</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/logo.svg" rel="icon" />
+
+    <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
 
-    <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
-    <link rel="stylesheet" href="css/barfiller.css" type="text/css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
   </head>
-
   <body>
-    <!-- Offcanvas Menu Begin -->
-    <div class="offcanvas-menu-overlay"></div>
-    <div class="offcanvas-menu">
-      <div class="offcanvas__logo">
-        <a href="./index.html"><img src="img/logo.png" alt="" /></a>
-      </div>
-      <div id="mobile-menu-wrap"></div>
-      <div class="offcanvas__widget">
-        <ul>
-          <li>CALL US: + 1 800-567-8990</li>
-          <li>WRITE US: OFFICE@EXAMPLE.COM</li>
-          <li>OPENING TIMES: MON - FRI: 9:00 - 19:00</li>
-        </ul>
-        <a href="#" class="primary-btn">JOIN US</a>
-      </div>
-      <nav class="header__menu">
-        <ul class="mobile-menu">
-          <li><a href="./index.html">TRANG CHỦ</a></li>
-          <li class="active"><a href="./about.html">VỀ TÔI</a></li>
-          <li><a href="./classes.html">KHÓA HỌC</a></li>
-          <li><a href="./blog.html">SỐNG KHỎE</a></li>
-          <li><a href="./contact.html">LIÊN HỆ</a></li>
-        </ul>
-      </nav>
-      <div class="offcanvas__social">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-      </div>
-    </div>
-    <!-- Offcanvas Menu End -->
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto">
+          <a href="index.html">
+            <img src="assets/img/logo.svg" alt="" srcset="" />
+          </a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-    <!-- Header Section Begin -->
-    <!-- Header Section Begin -->
-    <header class="header">
-      <div class="header__nav">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-3">
-              <div class="header__logo">
-                <a href="./index.html"><img src="img/logo.svg" alt="" /></a>
-              </div>
-            </div>
-            <div class="col-lg-9 col-md-9 menu">
-              <nav class="header__menu">
-                <ul>
-                  <li><a href="./index.html">TRANG CHỦ</a></li>
-                  <li class="active"><a href="./about.html">VỀ TÔI</a></li>
-                  <li><a href="./classes.html">KHÓA HỌC</a></li>
-                  <li><a href="./blog.html">SỐNG KHỎE</a></li>
-                  <li><a href="./contact.html">LIÊN HỆ</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a href="index.html">TRANG CHỦ</a></li>
+            <li><a class="active" href="about.html">VỀ TÔI</a></li>
+            <li><a href="courses.html">KHÓA HỌC</a></li>
+            <li><a href="blogs.html">SỐNG TỐT</a></li>
+            <li><a href="contact.html">LIÊN HỆ</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
     </header>
-    <!-- Header Section End -->
-    <!-- Header Section End -->
+    <!-- End Header -->
 
-    <!-- About Section Begin -->
-    <section class="home-about spad">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="about__pic">
-              <img src="img/about.png" alt="" />
+    <main id="main">
+      <!-- ======= Breadcrumbs ======= -->
+      <div class="breadcrumbs" data-aos="fade-in">
+        <div class="container">
+          <h2>Về Tôi</h2>
+        </div>
+      </div>
+      <!-- End Breadcrumbs -->
+
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div
+              class="col-lg-6 order-1 order-lg-2"
+              data-aos="fade-left"
+              data-aos-delay="100"
+            >
+              <img src="img/certificate.png" class="img-fluid" alt="" />
             </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="about__text">
-              <div class="section-title">
-                <h2>Chào bạn!</h2>
-              </div>
-              <span
-                >“Rất vui khi bạn ghé thăm trang web này, vì tôi biết ít nhiều
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h2>Chào bạn!</h2>
+              <p class="fst-italic">
+                “Rất vui khi bạn ghé thăm trang web này, vì tôi biết ít nhiều
                 bạn đang quan tâm đến Yoga, nghĩa là bạn quan tâm đến sức khoẻ
                 cả về thể chất, tinh thần và trí tuệ. Và Yoga cũng có thể giúp
-                bạn dễ dàng tìm thấy sự bình an, vui vẻ và hạnh phúc!”</span
-              >
-              <span>
+                bạn dễ dàng tìm thấy sự bình an, vui vẻ và hạnh phúc!”
+              </p>
+
+              <p>
                 Tôi tên là Võ Thị Xuân Thiều, công việc chuyên môn trước đây của
                 tôi vốn không liên quan gì đến Yoga. Tôi là giảng viên tại Khoa
                 Công nghệ Thông tin của trường Đại học Công nghiệp TP. HCM suốt
                 hơn 15 năm trước khi chính thức đến với Yoga. Bạn cũng có thể
                 thấy một số thông tin của tôi khi search trên Google với từ khóa
                 “ThS. Võ Thị Xuân Thiều”
-              </span>
-              <span>
+              </p>
+
+              <p>
                 Sức khỏe của tôi giảm sút rất nhiều từ khi tôi mang thai và sinh
                 hai con gái sinh đôi. Tôi tìm đến Yoga để mong cải thiện tình
                 trạng sức khỏe của mình và tôi rất vui mừng vì mình đã tìm đúng!
@@ -129,77 +113,78 @@
                 hạnh phúc hơn trong cuộc sống… Từ những giá trị mà tôi nhận
                 được, mong muốn được chia sẻ giá trị của Yoga cổ điển đến với
                 mọi người. <br />
+              </p>
+              <p>
                 Trong đợt dịch covid bùng phát dữ dội ở TP. HCM từ giữa năm
                 2021, tôi đã cùng nhiều HLV Yoga tham gia dự án thiện nguyện
                 “Hơi thở đẩy lùi covid” hổ trợ hướng dẫn thở chủ động cho các
                 bệnh nhân covid. Qua đó, tôi càng thấy rõ hơn giá trị của Yoga
                 đối với sức khỏe và càng thôi thúc tôi chia sẻ đến mọi người. Hi
                 vọng bạn và tôi có cơ hội được chia sẻ với nhau về Yoga cổ điển
-              </span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- About Section End -->
-
-    <!-- Team Section Begin -->
-    <section class="team spad">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <div class="section-title">
-              <h2>VIDEO</h2>
-              <p>
-                Phóng sự của Đài truyền hình SCTV4 về dự án "Hơi thở đẩy lùi
-                covid":
               </p>
             </div>
           </div>
         </div>
-        <div class="row">
-          <!-- 16:9 aspect ratio -->
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe
-              class="embed-responsive-item"
-              src="https://www.youtube.com/embed/1-ow_X2VAXo"
-              title="YouTube video player"
-            ></iframe>
+      </section>
+      <!-- End About Section -->
+
+      <section id="events" class="events">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Video</h2>
+            <p>Về tôi</p>
           </div>
-        </div>
-      </div>
-    </section>
-    <!-- Team Section End -->
-    <!-- Footer Section Begin -->
-    <section class="footer">
-      <div class="container">
-        <div class="row"></div>
-        <div class="footer__copyright">
+          <p>
+            Phóng sự của Đài truyền hình SCTV4 về dự án "Hơi thở đẩy lùi covid":
+          </p>
           <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6">
-              <div class="footer__copyright__text">
-                <p>
-                  Copyright &copy;
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  Xuan Thieu Yoga
-                </p>
-              </div>
+            <div class="col-lg-12">
+              <iframe
+                width="100%"
+                height="755"
+                src="https://www.youtube.com/embed/1-ow_X2VAXo"
+              >
+              </iframe>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-    <!-- Footer Section End -->
+      </section>
+      <!-- End Events Section -->
+    </main>
+    <!-- End #main -->
+<!-- ======= Footer ======= -->
+<footer id="footer">
+	<div class="footer-top">
+	  <div class="container">
+		<div class="row">
+			  <img src="assets/img/logo.svg" alt="" srcset="">
+		  </div>
 
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery.barfiller.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+		
+		</div>
+	  </div>
+	</div>
+
+  
+  </footer>
+  <!-- End Footer -->
+
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

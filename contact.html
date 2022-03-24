@@ -1,177 +1,155 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="description" content="Directing Template" />
-    <meta name="keywords" content="Directing, unica, creative, html" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Xuân Thiều Yoga</title>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-    <!-- Google Font -->
+    <title>Xuân Thiều Yoga</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
+
+    <!-- Favicons -->
+    <link href="assets/img/logo.svg" rel="icon" />
+
+    <!-- Google Fonts -->
     <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
       rel="stylesheet"
     />
 
-    <!-- Css Styles -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
-    <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
-    <link rel="stylesheet" href="css/barfiller.css" type="text/css" />
-    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
-    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet" />
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
   </head>
-
   <body>
-   
-    <!-- Offcanvas Menu Begin -->
-    <div class="offcanvas-menu-overlay"></div>
-    <div class="offcanvas-menu">
-      <div class="offcanvas__logo">
-        <a href="./index.html"><img src="img/logo.png" alt="" /></a>
-      </div>
-      <div id="mobile-menu-wrap"></div>
-      <div class="offcanvas__widget">
-        <ul>
-          <li>CALL US: + 1 800-567-8990</li>
-          <li>WRITE US: OFFICE@EXAMPLE.COM</li>
-          <li>OPENING TIMES: MON - FRI: 9:00 - 19:00</li>
-        </ul>
-        <a href="#" class="primary-btn">JOIN US</a>
-      </div>
-      <nav class="header__menu">
-        <ul class="mobile-menu">
-          <li><a href="./index.html">TRANG CHỦ</a></li>
-          <li><a href="./about.html">VỀ TÔI</a></li>
-          <li><a href="./classes.html">KHÓA HỌC</a></li>
-          <li><a href="./blog.html">SỐNG KHỎE</a></li>
-          <li class="active"><a href="./contact.html">LIÊN HỆ</a></li>
-        </ul>
-      </nav>
-      <div class="offcanvas__social">
-        <a href="#"><i class="fa fa-facebook"></i></a>
-        <a href="#"><i class="fa fa-twitter"></i></a>
-        <a href="#"><i class="fa fa-instagram"></i></a>
-        <a href="#"><i class="fa fa-linkedin"></i></a>
-      </div>
-    </div>
-    <!-- Offcanvas Menu End -->
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto">
+          <a href="index.html">
+            <img src="assets/img/logo.svg" alt="" srcset="" />
+          </a>
+        </h1>
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
-    
-    <!-- Header Section Begin -->
-    <header class="header">
-      <div class="header__nav">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-3 col-md-3">
-              <div class="header__logo">
-                <a href="./index.html"><img src="img/logo.svg" alt="" /></a>
-              </div>
-            </div>
-            <div class="col-lg-9 col-md-9 menu">
-              <nav class="header__menu">
-                <ul>
-                  <li><a href="./index.html">TRANG CHỦ</a></li>
-                  <li><a href="./about.html">VỀ TÔI</a></li>
-                  <li><a href="./classes.html">KHÓA HỌC</a></li>
-                  <li><a href="./blog.html">SỐNG KHỎE</a></li>
-                  <li class="active"><a href="./contact.html">LIÊN HỆ</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a href="index.html">TRANG CHỦ</a></li>
+            <li><a  href="about.html">VỀ TÔI</a></li>
+            <li><a href="courses.html">KHÓA HỌC</a></li>
+            <li><a href="blogs.html">SỐNG TỐT</a></li>
+            <li><a  class="active" href="contact.html">LIÊN HỆ</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
     </header>
-    <!-- Header Section End -->
-    </section>
-    <!-- Contact Section Begin -->
-    <section class="contact spad">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="contact__widget__item">
-              <img src="img/ico1.png" alt="" />
-              <h4>I8-08 đường số 58, KDC 586,</h4>
-              <p>Phú Thứ, Cái Răng, Cần Thơ.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="contact__widget__item">
-              <img src="img/ico2.png" alt="" />
-              <h4>0918.147.606</h4>
-              <p>( Ms. Xuân Thiều)</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6 col-sm-6">
-            <div class="contact__widget__item">
-              <img src="img/ico3.png" alt="" />
-              <h4>xuanthieuyoga@gmail.com</h4>
-              <p>xuanthieuyoga@gmail.com</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Contact Section End -->
-    <!-- Map Begin -->
-    <div class="map">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.2062569200634!2d105.80455581479417!3d9.9998145928513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a06344d1f445cb%3A0x137115e8edec7d6f!2sShangri%20La%20Villa!5e0!3m2!1sen!2s!4v1647442898182!5m2!1sen!2s"
-        width="600"
-        height="450"
-        style="border: 0"
-        allowfullscreen=""
-        loading="lazy"
-      ></iframe>
-      <div class="map-inside">
-        <i class="icon_pin"></i>
-        <div class="inside-widget">
-          <h2>Xuân Thiều Yoga</h2>
-          <ul>
-            <li><strong>Phone: </strong> 0918.147.606</li>
-            <li>
-              <strong>Add: </strong> I8-08 đường số 58, KDC 586,Phú Thứ, Cái
-              Răng, Cần Thơ.
-            </li>
-          </ul>
-        </div>
-      </div>
-    </div>
-    <!-- Map End -->
-    <!-- Footer Section Begin -->
-    <section class="footer">
-      <div class="container">
-        <div class="row"></div>
-        <div class="footer__copyright">
-          <div class="row">
-            <div class="col-lg-6 col-md-6 col-sm-6">
-              <div class="footer__copyright__text">
-                <p>
-                  Copyright &copy;
-                  <script>
-                    document.write(new Date().getFullYear());
-                  </script>
-                  Xuan Thieu Yoga
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Footer Section End -->
+    <!-- End Header -->
 
-    <!-- Js Plugins -->
-    <script src="js/jquery-3.3.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nice-select.min.js"></script>
-    <script src="js/jquery.barfiller.js"></script>
-    <script src="js/jquery.slicknav.js"></script>
-    <script src="js/owl.carousel.min.js"></script>
-    <script src="js/main.js"></script>
+    <main id="main">
+      <!-- ======= Breadcrumbs ======= -->
+      <div class="breadcrumbs" data-aos="fade-in">
+        <div class="container">
+          <h2>Thông tin liên hệ</h2>
+        </div>
+      </div>
+      <!-- End Breadcrumbs -->
+ <!-- ======= Why Us Section ======= -->
+ <section id="why-us" class="why-us">
+	<div class="container" data-aos="fade-up">
+	  <div class="section-title">
+		<h2>Thông tin</h2>
+		<p>Liên hệ</p>
+	  </div>
+	  <div class="row">
+		<div class="col-lg-4 d-flex align-items-stretch">
+		  <div class="icon-box mb-4 mt-xl-0">
+			<img src="img/ico1.png" alt="" class="mb-4" />
+			<h4>I8-08 đường số 58, KDC 586,</h4>
+			<h5>Phú Thứ, Cái Răng, Cần Thơ</h5>
+		  </div>
+		</div>
+		<div class="col-lg-4 d-flex align-items-stretch">
+		  <div class="icon-box mb-4 mt-xl-0">
+			<img src="img/ico2.png" alt="" class="mb-4" />
+			<h4>0918.147.606</h4>
+			<h5>( Ms. Xuân Thiều)</h5>
+		  </div>
+		</div>
+		<div class="col-lg-4 d-flex align-items-stretch">
+		  <div class="icon-box mb-4 mt-xl-0">
+			<img src="img/ico3.png" alt="" class="mb-4" />
+			<h4>xuanthieuyoga@gmail.com</h4>
+			<h5>xuanthieu@gmail.com</h5>
+		  </div>
+		</div>
+	  </div>
+	</div>
+  </section>
+  <!-- End Why Us Section -->
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div data-aos="fade-up">
+          <iframe
+            style="border: 0; width: 100%; height: 955px"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.2062569200634!2d105.80455581479417!3d9.9998145928513!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31a06344d1f445cb%3A0x137115e8edec7d6f!2sShangri%20La%20Villa!5e0!3m2!1sen!2s!4v1647442898182!5m2!1sen!2s"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+     
+    </main>
+    <!-- End #main -->
+   <!-- ======= Footer ======= -->
+   <footer id="footer">
+	<div class="footer-top">
+	  <div class="container">
+		<div class="row">
+			  <img src="assets/img/logo.svg" alt="" srcset="">
+		  </div>
+
+		
+		</div>
+	  </div>
+	</div>
+
+  
+  </footer>
+  <!-- End Footer -->
+
+    <div id="preloader"></div>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
